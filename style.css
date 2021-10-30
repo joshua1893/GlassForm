@@ -58,6 +58,7 @@ section .color:nth-child(3)
     position: relative;
 }
 
+/* Animaciones de los cuadros */
 .box .square
 {
     position: absolute;
@@ -72,6 +73,7 @@ section .color:nth-child(3)
     animation-delay: calc(-1s * var(--i));
 }
 
+/* Transformaciones */
 @keyframes animate 
 {
     0%,100%
@@ -220,7 +222,4 @@ section .color:nth-child(3)
 {
     color: #fff;
     font-weight: 600;
-
 }
-
-
